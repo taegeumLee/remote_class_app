@@ -2,9 +2,9 @@
 
 export default function LoginForm() {
   return (
-    <form action="" className="flex flex-col gap-2 mx-auto">
+    <form action="" className="flex flex-col gap-2 mx-auto mb-8">
       <div className="flex flex-row">
-        <div className="w-1/2">
+        <div className="w-1/2 flex flex-col gap-2">
           <input
             className="bg-neutral-100 p-2 rounded-lg"
             type="text"

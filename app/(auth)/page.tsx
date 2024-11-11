@@ -10,13 +10,13 @@ export default function Home() {
         </div>
         <LoginForm />
         <div className="flex flex-col items-center gap-2 w-full ">
-          <button className="py-2.5 mb-2 text-lg w-full text-neutral-900 bg-neutral-100 rounded-lg p-4 hover:bg-blue-400 hover:text-neutral-100 transition-all">
+          <button className="py-2.5 mb-2 text-lg w-full text-neutral-900 bg-neutral-100 rounded-lg p-4 focus:bg-blue-400 focus:text-neutral-100 focus:outline-none hover:bg-blue-400 hover:text-neutral-100 transition-all">
             구글 로그인
           </button>
-          <button className="py-2.5 mb-2 text-lg w-full text-neutral-900 bg-neutral-100 rounded-lg p-4 hover:bg-green-400 hover:text-neutral-100 transition-all">
+          <button className="py-2.5 mb-2 text-lg w-full text-neutral-900 bg-neutral-100 rounded-lg p-4 focus:bg-green-400 focus:text-neutral-100 focus:outline-none hover:bg-green-400 hover:text-neutral-100 transition-all">
             네이버 로그인
           </button>
-          <button className="py-2.5 mb-2 text-lg w-full text-neutral-900 bg-neutral-100 rounded-lg p-4 hover:bg-yellow-400 hover:text-neutral-100 transition-all">
+          <button className="py-2.5 mb-2 text-lg w-full text-neutral-900 bg-neutral-100 rounded-lg p-4 focus:bg-yellow-400 focus:text-neutral-100 focus:outline-none hover:bg-yellow-400 hover:text-neutral-100 transition-all">
             카카오 로그인
           </button>
 
@@ -24,7 +24,7 @@ export default function Home() {
 
           <Link
             href="/create-account"
-            className="py-2.5 mb-2  text-lg w-full text-neutral-900 bg-neutral-100 rounded-lg p-4 hover:bg-blue-400 hover:text-neutral-100 transition-all"
+            className="py-2.5 mb-2  text-lg w-full text-neutral-900 bg-neutral-100 rounded-lg p-4 focus:bg-blue-400 focus:text-neutral-100 focus:outline-none hover:bg-blue-400 hover:text-neutral-100 transition-all"
           >
             이메일로 가입하기
           </Link>
